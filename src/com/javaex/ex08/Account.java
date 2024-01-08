@@ -3,7 +3,7 @@ package com.javaex.ex08;
 public class Account {
 
     private String accountNo;
-    private static int balance;
+    private static int balance;//입금액 누적을 위해서 static 으로 표현
     
     //생성자 작성
     public Account(String accountNo) {

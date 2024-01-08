@@ -46,6 +46,8 @@ public class Book {
 	public void setAuthor(String author) {
 		this.author = author;
 	}
+	
+
     
     public void rent(int stateCode) {
     	if(stateCode==0) {

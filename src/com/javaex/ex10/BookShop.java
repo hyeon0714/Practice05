@@ -3,6 +3,8 @@ package com.javaex.ex10;
 import java.util.Scanner;
 
 public class BookShop {
+	
+	
 
     public static void main(String[] args) {
         Book[] books = new Book[10];
@@ -47,5 +49,6 @@ public class BookShop {
     	}
     	
     }
+    
     
 }
