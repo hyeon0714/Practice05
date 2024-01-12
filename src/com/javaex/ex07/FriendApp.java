@@ -15,7 +15,7 @@ public class FriendApp {
         //for문 시작
         //친구정보 3명 입력 로직 --> 반복문 사용
         for(int i=0; i<friendArray.length; i++) {
-        	//friendArray[i]=new Friend();//와 이게 문제였네;;;;
+        	friendArray[i]=new Friend();//와 이게 문제였네;;;;
         	//ㅅㅂ
         	System.out.print("이름:");
         	String name=sc.next();
